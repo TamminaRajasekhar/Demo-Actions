@@ -1,0 +1,16 @@
+name: 'Custom Git Hub Action'
+description: 'call an api get the result'
+
+inuputs: 
+  pokemon_id: 
+    description: 'number of pokeman in the pokedex'
+    required: ture
+    details: 1
+outpus:
+  pokemon_name:
+    description: 'name des pokeman'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args: 
+     -${{inputs.pokemon_id}}
