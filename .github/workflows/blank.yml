@@ -8,6 +8,6 @@ jobs:
        uses: ./
        id: pokemon
        with:
-         pokemon-id=150
+         pokemon_id=150
       -name: get the pokemon
        run: echo "${{steps.pokemon.outputs.pokemon-name}} attack"
