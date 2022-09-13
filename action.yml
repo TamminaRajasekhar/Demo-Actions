@@ -6,7 +6,7 @@ inuputs:
     description: 'number of pokeman in the pokedex'
     required: ture
     default: 1
-outpus:
+outputs:
   pokemon_name:
     description: 'name des pokeman'
 runs:
