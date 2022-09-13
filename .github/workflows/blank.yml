@@ -5,9 +5,9 @@ jobs:
     name: we test locally with acts
     steps:
       -name: get pokemon name
-       uses: ./
+       uses: TamminaRajasekhar/Demo-Actions@main
        id: pokemon
        with:
          pokemon_id=150
       -name: get the pokemon
-       run: echo "${{steps.pokemon.outputs.pokemon-name}} attack"
+       run: echo "${{steps.pokemon.outputs.pokemon_name}} attack"
