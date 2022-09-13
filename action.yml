@@ -5,7 +5,7 @@ inuputs:
   pokemon_id: 
     description: 'number of pokeman in the pokedex'
     required: ture
-    details: 1
+    default: 1
 outpus:
   pokemon_name:
     description: 'name des pokeman'
