@@ -2,7 +2,7 @@ on: [push]
 jobs:
  custom_test:
     runs-on: ubuntu-latest
-    name: we test locally with act
+    name: we test locally with acts
     steps:
       -name: get pokemon name
        uses: ./
