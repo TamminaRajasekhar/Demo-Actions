@@ -1,6 +1,5 @@
 name: 'Custom Git Hub Action'
 description: 'call an api get the result'
-
 inuputs: 
   pokemon_id: 
     description: 'number of pokeman in the pokedex'
