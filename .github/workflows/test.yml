@@ -5,9 +5,9 @@ jobs:
     name: we are tesing
     steps:
       - name: get pokemon name
-        uses: ./Demo-Actions/action.yml
+        uses: TamminaRajasekhar/Demo-Actions@e53ab5f5222c4e49d47efb2460cf14602b0fb937
         id: pokemon
         with:
-           pokemon_id=105
+           pokemon_id= 30
       - name: get the pokemon
         run: echo "${{steps.pokemon.outputs.pokemon_name}} attack"
