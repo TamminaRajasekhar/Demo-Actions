@@ -12,4 +12,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args: 
-     -${{inputs.pokemon_id}}
+     - ${{inputs.pokemon_id}}
