@@ -2,12 +2,12 @@ on: [push]
 jobs:
  custom_test:
     runs-on: ubuntu-latest
-    name: we test locally with acts
+    name: we are tesing
     steps:
       - name: get pokemon name
-        uses: TamminaRajasekhar/Demo-Actions@main
+        uses: ./Demo-Actions/action.yml
         id: pokemon
         with:
-          pokemon_id=105
+           pokemon_id=105
       - name: get the pokemon
         run: echo "${{steps.pokemon.outputs.pokemon_name}} attack"
