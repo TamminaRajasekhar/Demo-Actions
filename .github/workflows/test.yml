@@ -4,7 +4,7 @@ jobs:
      runs-on: ubuntu-latest
      name: we are tesing
      steps:
-       - name: get pokemon name
+       - name: get pokemon names
          uses: TamminaRajasekhar/Demo-Actions@main
          id: pokemon
          with:
