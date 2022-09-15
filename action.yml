@@ -7,7 +7,7 @@ inuputs:
     default: 1
 outputs:
   pokemon_name:
-    description: 'name des pokeman'
+    description: 'name des pokemon'
 runs:
   using: 'docker'
   image: 'Dockerfile'
