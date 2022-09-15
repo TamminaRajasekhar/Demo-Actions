@@ -5,7 +5,7 @@ jobs:
      name: we are tesing
      steps:
        - name: get pokemon name
-         uses: TamminaRajasekhar/Demo-Actions/action.yml@main
+         uses: TamminaRajasekhar/Demo-Actions@main
          id: pokemon
          with:
            pokemon_id: 150
