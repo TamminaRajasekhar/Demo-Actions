@@ -2,7 +2,7 @@ on: [push]
 jobs:
    custom_test:
      runs-on: ubuntu-latest
-     name: we are tesing
+     name: we are tesings
      steps:
        - name: get pokemon name
          uses: TamminaRajasekhar/Demo-Actions@main
